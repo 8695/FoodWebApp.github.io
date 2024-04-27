@@ -1,0 +1,111 @@
+.Login{
+  background-image: url(../img/create-food-website.png);
+  background-size: cover;
+  height: 70vh;
+  background-repeat: no-repeat;
+}
+
+
+.titleLogin{
+  position: relative;
+  color: #e1d5d5;
+  margin-left: 40%;
+  top:65px;
+  
+  
+}
+.para{
+  font-size: 20px;
+  margin-left: 60px;
+  color: #ed0b0b;
+  border-bottom: 1px solid #d44317;
+  box-shadow: 1px 0px 3px 3px rgb(210, 194, 210);
+} 
+/* LoginForm.css */
+.loginContainer {
+    display: flex;
+    margin-top:54px;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+  }
+  
+  .loginForm {
+    background: #f4f4f4;
+    padding: 20px;
+    padding-right: 67px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 0px 3px 3px rgb(210, 194, 210);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  .Signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+  }
+  .title{
+    font-size: 2rem;
+    color: #007bff;  
+    margin-top: -1rem;
+    margin-left: 1rem;
+  }
+  .btn{
+    
+    font-size: 15px;
+    margin: 0px 0px 0px 80px;
+    color: rgb(56, 227, 239);
+    border-bottom: 2px solid rgb(210, 62, 13);
+    text-decoration: none;
+    
+  }
+  .btn:hover{
+    border:none;
+    border-radius: 10%;
+    padding-left: 6px;
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+    box-sizing: border-box;
+    box-shadow: 1px 0px 3px 3px rgb(210, 194, 210);
+    text-decoration:none;
+    color:#fff;
+    background-color:rgb(47, 0, 255);
+  }
+  .SignHeading{
+    font-size: 18px;
+    color: #fff;
+    margin: 0px -53px 0px -49px;
+  }
+  @media (max-width:900px) {
+    .title{
+      margin-top: -9rem;
+      margin-left: 1rem;
+    }
+  }
+  

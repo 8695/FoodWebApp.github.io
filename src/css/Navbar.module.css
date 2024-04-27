@@ -1,0 +1,64 @@
+.navbar{
+   height: 50px;
+   display: flex;
+   justify-content: space-between;
+   background-color:#1d82cc45;
+   padding: 10px;
+   box-shadow: 0 15px 40px -20px rgba(40,44,63,.15);
+}
+
+.title{
+    margin: 10px 20px;
+    font-size: 30px;
+    background:  linear-gradient(to right, rgba(217, 15, 214, 0.918), rgb(213 12 58 / 73%), rgb(88 158 16));
+    font-weight: 600;
+    -webkit-background-clip: text; /* For webkit browsers */
+    background-clip: text;
+    color: transparent;
+    font-family: '"Montserrat",sans-serif';
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: transform .2s cubic-bezier(.215,.61,.355,1);
+
+
+}
+.title:hover{
+    transform: scale(1.1);
+}
+
+.listnav{
+   display: flex;
+   justify-content: space-between;
+   width: 40%;
+   margin: 10px 20px;
+   font-weight: 600px;
+   cursor: pointer;
+   
+}
+.navitem{
+    color:azure;
+    font-size: 25px;
+}
+.navitem:hover{
+    color: orange;
+}
+.profileicon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 5px;
+    
+}
+.cartimg{
+    width: 40px;
+    height: 40px;
+}
+.cartCount{
+    background-color: rgb(255, 47, 0);
+    border-radius: 46%;
+    padding: 6px;
+    position: absolute;
+    right: 1%;
+    top: 1px;
+    font-size: 15px;
+}     

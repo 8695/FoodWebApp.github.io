@@ -1,0 +1,86 @@
+.footer{
+   
+    background-color: rgb(82, 101, 120);
+    
+    border-top: 1px solid white ;
+    
+}
+.downLoad{
+
+    background-color: #F7F3F5;
+
+}
+.headingDownload{
+    display: grid;
+    margin:  auto;
+    grid-template-columns: 2fr 1fr;
+    width:80%;
+}
+.DTitle{
+    font-size: 40px;
+    font-weight: 800;
+    color: #2B161B;
+}
+.app{
+    font-size: 50px;
+    margin-top: 30px;
+    font-weight: 800;
+    color: #2B161B;
+    
+}
+.paraApp{
+    font-size: 20px;
+    color:#322b2d;
+    width: 60%;
+    margin-top: 20px;
+}
+.playstore{
+    padding: 10px;
+    border: 1px solid orangered ;
+    color:orangered;
+    font-weight: 600;
+    background-color:#F7F3F5 ;
+    cursor: pointer;
+    margin:20px;
+
+}
+.playstore:hover{
+    background-color: orangered;
+    color: white;
+}
+
+.footerContent{
+    display: grid;
+    width: 80%;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 12px auto;
+}
+.footerCopywrite{
+    margin:10px;
+}
+.copy{
+    color: white;
+    font-size: 20px;
+}
+.all{
+    font-size: 20px;
+    color: rgb(215, 199, 107);
+    
+}
+.common{
+    margin:10px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.SocialLinks{
+    margin:15px;
+    display: flex;
+    flex-direction: row;
+}
+.icons{
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+
+}

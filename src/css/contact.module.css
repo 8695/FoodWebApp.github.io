@@ -1,0 +1,64 @@
+.heading{
+    font-size: 40px;
+    font-weight: 800;
+    padding: 20px 0px;
+    text-align: center;
+    color: rgb(203, 57, 57);
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin:  auto;
+}
+
+.details{
+    margin: 20px 10px;
+}
+.title{
+    font-size: 45px;
+    margin-top: 40px;
+    color: #32303ba8;
+}
+.info1{
+    font-size: 25px;
+    margin-top: 25px;
+    color: #9f8c67;
+}
+.info2{
+    font-size: 25px;
+    margin-top: 8px;
+    color: #9f8c67;
+}
+.open{
+    margin-top: 20px;
+    font-size: 40px;
+    color: #32303ba8;
+}
+.time{
+    font-size: 18px;
+    margin-top: 8px;
+    color: #9f8c67;
+}
+.time2{
+    font-size: 18px;
+    margin-top: 4px;
+    color: #9f8c67;
+
+}
+.form{
+    margin: 20px 10px;
+
+}
+label{
+    font-size: 25px;
+    font-weight: 500;
+}
+textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
