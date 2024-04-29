@@ -1,11 +1,11 @@
 
 .about{
-    background: url(../img/burger.png);
+    background: url(../img/burger.jpeg);
     background-size: cover;
     height: 95vh;
     opacity: 0.4;
     border-bottom: 10px 10px;
-   
+     animation: fadeIn 4s;
     
 }
 .TitleAbout{
@@ -16,6 +16,7 @@
     font-weight: 900;
     left: 10%;
     top: 55%;
+    animation: fadeIn 4s;
 }
 .para{
     position: absolute;
@@ -24,6 +25,7 @@
     width:40%;
     left:10%;
     bottom:15%;
+    animation: fadeIn 4s;
 }
 
 .aboutContent{
@@ -164,3 +166,11 @@
     transform: scale(0.9);
     background-color: rgba(255,255,255,0.8);
 }
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+  }

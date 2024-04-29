@@ -1,10 +1,11 @@
 import styles from '../../css/about.module.css';
-import restro from "../../img/restro.png"
-import cofee from "../../img/cofee.png";
-import beer from "../../img/beer.png";
-import cup from "../../img/cup.png";
-import cafe from "../../img/cafe.png";
-import food from "../../img/food.png";
+import restro from "../../img/restro.jpeg"
+import cofee from "../../img/cofee.jpeg";
+import beer from "../../img/item18.jpeg";
+import cup from "../../img/cup.jpeg";
+import cafe from "../../img/cafe.jpeg";
+import food from "../../img/food.jpeg";
+
 
 export const About = () => {
     return (

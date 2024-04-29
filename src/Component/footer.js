@@ -1,5 +1,5 @@
 import styles from "../css/footer.module.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { NavLink, Outlet } from "react-router-dom";
 import insta from "../img/instagram.png";
 import twitter from "../img/twitter.png";
 import faceB from "../img/facebook.png";
@@ -34,8 +34,8 @@ export const Footer = () => {
             <p className={styles.all}>All rights reserved.</p>
           </div>
           <div className={styles.common}>
-            <p>About us</p>
-            <p>Contact us</p>
+            <NavLink to="/about" style={{textDecoration:"none", color: "white"}}><p>About us</p></NavLink>
+            <NavLink to="/contact" style={{textDecoration:"none",color: "white"}}><p>Contact us</p></NavLink>
             <p>FaQs</p>
             <p>Blog</p>
             <p>Team</p>
@@ -63,6 +63,7 @@ export const Footer = () => {
           </div>
         </div>
       </footer>
+      <Outlet />
     </>
 
   )
